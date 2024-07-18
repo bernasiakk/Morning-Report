@@ -71,10 +71,9 @@ def extract_exchange_rates(task_instance):
 
         # Decrement date for retry on unsuccessful response
         prev_day -= timedelta(days=1)
-        # task_instance.xcom_push(key='prev_day', value=prev_day)
         
         # Check if reached a date before today (avoid infinite loop)
-        if prev_day < (today - timedelta(days=7)):  # Adjust year/month as needed
+        if prev_day < (today - timedelta(days=7)):
             logging.info("No data available for the past week. Exiting.")
             break
 

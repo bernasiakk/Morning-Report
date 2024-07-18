@@ -24,7 +24,6 @@ def consolidate_data(task_instance): # query the data & load to json
 
     bigquery_client = bigquery.Client()
         
-    # TODO add variables to this query
     query = f"""
     SELECT weather.date as current_date,
         weather.temp, 
