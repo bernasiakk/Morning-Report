@@ -1,0 +1,13 @@
+{
+    "OPEN_WEATHER_API_KEY": "***YOUR_OWN_API_KEY***",
+    "archive_prefix": "archived",
+    "bucket_name": "working-files-morning-report",
+    "cron_interval": "30 5 * * *",
+    "dataset": "morning_report",
+    "morning_report_prefix": "morning_report",
+    "not_processed_prefix": "not_processed",
+    "processed_prefix": "processed",
+    "project_id": "morning-report-428716",
+    "region": "europe-west3",
+    "report_bucket_name": "morning-report"
+}
