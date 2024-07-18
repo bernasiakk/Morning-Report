@@ -32,7 +32,7 @@ table = "weather"
 def extract_weather():
     parameters = {'units': 'metric',
                 'q': 'warszawa',
-                'appid': '82e5d998828557d3a1b9fb1cd7bcd559'} # TODO store it as openweather_api_key
+                'appid': '***'} # TODO store it as openweather_api_key
 
     result = requests.get(
         "http://api.openweathermap.org/data/2.5/weather?", parameters)
