@@ -1,3 +1,5 @@
+(any exposed APIs have been deactivated before publishing the code to Github)
+
 ## 1. Project Overview
 - Project Name: Make your own morning report.
 - Project Description: This project is to prepare a daily JSON report. This report will combine various information from the internet.
