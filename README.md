@@ -21,7 +21,7 @@
 BigQuery database + JSON file.
 
 ## 3. Architecture
-### High-level architecture
+### High-level Architecture
 ![alt text](images/architecture.png)
 
 ### BigQuery database schema
