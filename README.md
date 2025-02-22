@@ -45,7 +45,7 @@ BigQuery database + JSON file.
 - Airflow set up on local machine or in docker container
 - Google Cloud Platform:
   - free trial account is sufficient
-  - User with owner role
+  - User with `owner` role
   - Enabled APIs: Storage API & BigQuery API
 
 ### Configuration:
