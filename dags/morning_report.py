@@ -169,8 +169,4 @@ with models.DAG('consolidate_data',
     )
 
 # Set up dependencies
-wait_for_weather >> consolidate_data
-wait_for_exchange_rates >> consolidate_data
-wait_for_history_facts >> consolidate_data
-wait_for_daily_word >> consolidate_data
-wait_for_bored_activity >> consolidate_data
+[wait_for_weather, wait_for_exchange_rates, wait_for_history_facts, wait_for_daily_word, wait_for_bored_activity] >> consolidate_data
